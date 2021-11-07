@@ -1,4 +1,2 @@
-import { other } from "./other";
-
-import(other); 
-console.warn(other());
+// import { other } from "./other";
+// console.warn(other());
