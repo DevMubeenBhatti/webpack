@@ -1,2 +1,2 @@
-// import { other } from "./other";
-// console.warn(other());
+import { other } from "./other";
+console.warn(other(), "index file...");

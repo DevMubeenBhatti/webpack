@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server --mode development --0000000000000000"
   },
   "keywords": [],
-  "author": "",
+  "author": "mubeen",
   "license": "ISC",
   "dependencies": {
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "@webpack-cli/serve": "^1.6.0",
+    "webpack-dev-server": "^3.10.3"
   }
 }
