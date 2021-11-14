@@ -1,0 +1,40 @@
+Webpack
+=============
+type of build
+
+1: Dev Build
+2: UAT Build
+3: Production Build
+4: Testing Build
+
+
+module bundler
+=> a module bundler is a tool that takes pieces of javaScript
+and their dependencty and buildles them into a single file,
+usually for use in browser
+
+make build
+=> make build in single file as requirement (Dev bulid, producation Build Etc)
+
+
+npm init -y
+=> package.json
+
+dist 
+	index.html
+src
+	index.js
+	other.js
+package.json
+
+npm i webpack webpack-cli --save
+=>add node_modules
+
+npm run build
+
+npm i webpack-dev-server --save-dev
+=>using for dev server 
+
+
+npm i --save-dev style-loader css-loader
+=> adding style for loading

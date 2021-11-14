@@ -1,2 +1,3 @@
 import { other } from "./other";
-console.warn(other(), "app-js file...$$$");
+import './style.css';
+console.warn(other(), "app-js file..");

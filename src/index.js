@@ -1,2 +1,3 @@
-import { other } from "./other";
-console.warn(other(), "index file...");
+// import { other } from "./other";
+// import './style.css';
+// console.warn(other(), "index file...");

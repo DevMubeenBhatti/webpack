@@ -1,14 +1,25 @@
 const path =require('path')
 module.exports={
-	mode:"development",
-	entry: './src/app.js',
+	mode:"production",
+	entry: './src/index.js',
 	output:{
 		path:path.resolve(__dirname,'dist'),
 		filename:"output.js"
 	},
+	// module:{
+	// 	rules:[
+	// 		{
+	// 			test: /\.css$/,
+	// 			use:[
+	// 				'css-loader',
+	// 				'style-loader'
+	// 			]
+	// 		}
+	// 	]
+	// },
 	devServer:{
 		contentBase:path.join(__dirname, 'dist'),
 		compress: true,
-		port:3500
+		port:3800
 	}
 }
